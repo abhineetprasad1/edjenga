@@ -12,8 +12,6 @@ public class Main : MonoBehaviour
         get { return instance; }
     }
 
-  
-
     private GameData gameData;
     private SessionController sessionController;
 
@@ -63,4 +61,5 @@ public class Main : MonoBehaviour
         sessionController.Destroy();
         sessionController = null;
     }
+
 }
